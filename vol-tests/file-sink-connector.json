@@ -1,0 +1,7 @@
+{
+    "name": "local-file-sink",
+    "connector.class": "FileStreamSink",
+    "tasks.max": 1,
+    "file": "/tmp/test.sink.txt",
+    "topics": "local.connect-test-file"
+}

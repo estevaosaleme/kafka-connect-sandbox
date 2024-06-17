@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export KAFKA_JMX_OPTS="-javaagent:${JMX_EXPORTER_JAVA_AGENT_JAR_PATH}=0.0.0.0:9404:${JMX_EXPORTER_CONFIG_PATH}"
+echo "Starting Kafka Connect..."
+${KAFKA_CONNECT_BIN} ${KAFKA_CONNECT_PROPERTIES_PATH}

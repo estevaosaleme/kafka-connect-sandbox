@@ -1,0 +1,7 @@
+{
+    "name": "local-file-source",
+    "connector.class": "FileStreamSource",
+    "tasks.max": 1,
+    "file": "/opt/connectors/file-source.txt",
+    "topic": "local.connect-test-file"
+}
