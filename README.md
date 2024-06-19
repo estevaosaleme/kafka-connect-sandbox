@@ -1,8 +1,8 @@
-# Kafka Connect Testbed
+# Kafka Connect Sandbox
 
-This repository refers to the code mentioned in the article available at https://estevaosaleme.medium.com/a-testbed-for-kafka-connect-connectors-experimentation-804f412dc69b
+This repository refers to the code mentioned in the article available at https://estevaosaleme.medium.com/a-sandbox-for-kafka-connect-connectors-experimentation-2e41f99aae15
 
-### What does this testbed do?
+### What does this sandbox do?
 
 - Spin up Apache Kafka.
 - Build and spin up Kafka Connect.
