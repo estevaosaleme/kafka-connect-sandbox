@@ -1,1 +1,2 @@
-1,test
+{"schema":{"type":"struct","fields":[{"type":"int64","optional":false,"field":"id"},{"type":"string","optional":false,"field":"description"}],"optional":false,"name":"demo"},"payload":{"id":1,"description":"description test"}}
+{"schema":{"type":"struct","fields":[{"type":"int64","optional":false,"field":"id"},{"type":"string","optional":false,"field":"description"}],"optional":false,"name":"demo"},"payload":{"id":2,"description":"description test 2"}}

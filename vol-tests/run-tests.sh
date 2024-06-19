@@ -43,6 +43,11 @@ fi
 update_connector_config "local-file-source" "/tests/file-source-connector.json"
 sleep 5
 check_connector_status "local-file-source"
+
 update_connector_config "local-file-sink" "/tests/file-sink-connector.json"
 sleep 5
 check_connector_status "local-file-sink"
+
+update_connector_config "postgres-sink-connector" "/tests/postgres-sink-connector.json"
+sleep 5
+check_connector_status "postgres-sink-connector"
