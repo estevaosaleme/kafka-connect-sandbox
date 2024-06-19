@@ -1,0 +1,18 @@
+{
+    "name": "postgres-sink-connector",
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+    "topics": "local.connect-test-file",
+    "connection.url": "jdbc:postgresql://postgres:5432/demo_sink",
+    "connection.user": "kafka_user",
+    "connection.password": "123456",
+    "auto.create": "true",
+    "auto.evolve": "true",
+    "insert.mode": "upsert",
+    "pk.mode": "record_value",
+    "pk.fields": "id",
+    "table.name.format": "demo_table",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "true"
+}
