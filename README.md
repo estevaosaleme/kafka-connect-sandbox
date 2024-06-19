@@ -14,13 +14,6 @@
 - Read data from kafka and output it a database (Postgres sink test).
 - Check the status of the source and sink connectors using Kafka Connect's API.
 
-### Architecture
-
-The following diagram shows the main components of this testbed, their technologies, and how they interact with each other:
-
-![architecture](https://github.com/estevaosaleme/kafka-connect-testbed/blob/main/docs/Kafka%20connect%20testbed.drawio.png?raw=true)
-
-
 ## Getting started
 First, build the Kafka Connect image using docker-compose:
 
