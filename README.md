@@ -1,5 +1,7 @@
 # Kafka Connect Testbed
 
+This repository refers to the code mentioned in the article available at https://estevaosaleme.medium.com/a-testbed-for-kafka-connect-connectors-experimentation-804f412dc69b
+
 ### What does this testbed do?
 
 - Spin up Apache Kafka.
