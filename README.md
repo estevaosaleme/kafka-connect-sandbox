@@ -18,7 +18,7 @@
 
 The following diagram shows the main components of this testbed, their technologies, and how they interact with each other:
 
-![architecture](docs/Kafka connect testbed.drawio.png)
+![architecture](https://github.com/estevaosaleme/kafka-connect-testbed/blob/main/docs/Kafka%20connect%20testbed.drawio.png?raw=true)
 
 
 ## Getting started
